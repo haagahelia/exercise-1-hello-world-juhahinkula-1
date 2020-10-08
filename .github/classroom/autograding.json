@@ -3,11 +3,11 @@
     {
       "name": "Hello",
       "setup": "npm install",
-      "run": "npm test a --watchAll=false",
+      "run": "CI=true npm test",
       "input": "",
       "output": "",
       "comparison": "included",
-      "timeout": 5,
+      "timeout": 2,
       "points": null
     }
   ]
